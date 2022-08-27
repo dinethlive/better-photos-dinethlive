@@ -61,6 +61,11 @@ a {
   grid-row: 1 / 2;
 }
 
+.logo {
+  margin-left: 26px;
+  margin-right: 48px;
+}
+
 .sidebar {
   background-color: #11271f;
 
