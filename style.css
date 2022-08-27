@@ -7,6 +7,26 @@
   box-sizing: border-box;
 }
 
+input {
+  font: inherit;
+  border: none;
+}
+
+button {
+  border: none;
+  background-color: initial;
+  outline: none; /* don't forget indicator for focus state */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* BASE STYLES */
 .page {
   font-family: "Poppins", sans-serif;
