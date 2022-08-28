@@ -75,7 +75,7 @@ a {
   color: #555a5b;
   padding-left: 20px;
   outline: none;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 .search__input:focus {
   width: 425px;
@@ -87,7 +87,7 @@ a {
   font-size: 15px;
   color: #a9b4b7;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.2s;
   position: absolute;
   right: 13px;
   top: 8px;
@@ -103,7 +103,7 @@ a {
 }
 .nav__link {
   padding: 0 20px;
-  transition: all 0.4s;
+  transition: all 0.2s;
   height: 65px;
   display: block;
 }
