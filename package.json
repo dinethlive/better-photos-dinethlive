@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dinethlive/better-photos-dinethlive/issues"
   },
-  "homepage": "https://github.com/dinethlive/better-photos-dinethlive#readme"
+  "homepage": "https://github.com/dinethlive/better-photos-dinethlive#readme",
+  "dependencies": {
+    "sass": "^1.54.5"
+  }
 }
