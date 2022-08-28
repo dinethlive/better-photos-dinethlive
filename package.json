@@ -1,0 +1,19 @@
+{
+  "name": "better-photos-dinethlive",
+  "version": "1.0.0",
+  "description": "Better Photos Image Sharing Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinethlive/better-photos-dinethlive.git"
+  },
+  "author": "dinethlive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinethlive/better-photos-dinethlive/issues"
+  },
+  "homepage": "https://github.com/dinethlive/better-photos-dinethlive#readme"
+}
