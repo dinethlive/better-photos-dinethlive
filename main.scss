@@ -34,6 +34,26 @@ a {
   text-decoration: none;
 }
 
+// UTILITY CLASS
+.u-italic {
+  font-style: italic;
+}
+
+.u-accent {
+  color: $color-accent;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-bolder {
+  font-weight: 700;
+}
 // BASE STYLES
 .page {
   font-family: "Poppins", sans-serif;
