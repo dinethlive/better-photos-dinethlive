@@ -224,6 +224,40 @@ a {
     margin-top: -5px;
   }
 }
+
+.auth {
+  &__text {
+    color: $color-grey-medium;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  &__link {
+    font-weight: 500;
+    color: $color-accent;
+  }
+}
+
+.btn {
+  background-color: #16b47f;
+  padding: 12px 0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: $ts;
+
+  &:hover,
+  &:focus {
+    background-color: #119267;
+  }
+
+  &__icon {
+    margin-left: 2px;
+  }
+}
+
 .gallery {
   background-color: #eef3f4;
 
