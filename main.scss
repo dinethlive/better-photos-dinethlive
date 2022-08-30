@@ -113,6 +113,10 @@ a {
 .search {
   position: relative;
 
+  @media (max-width: 815px) {
+    display: none;
+  }
+
   &__input {
     background-color: $color-grey-light;
     height: 34px;

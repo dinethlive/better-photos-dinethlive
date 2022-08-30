@@ -96,6 +96,11 @@ a {
 .search {
   position: relative;
 }
+@media (max-width: 815px) {
+  .search {
+    display: none;
+  }
+}
 .search__input {
   background-color: #eef3f4;
   height: 34px;
