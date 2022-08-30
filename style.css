@@ -169,6 +169,11 @@ a {
   font-size: 34px;
   line-height: 1;
 }
+@media (max-width: 355px) {
+  .first-heading {
+    font-size: 31px;
+  }
+}
 
 .social {
   display: flex;
