@@ -94,6 +94,15 @@ a {
   display: grid;
   grid-template-columns: 355px 1fr;
   grid-template-rows: 65px 724px 1fr;
+
+  @media (max-width: 1300px) {
+    width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 355px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 // STYLES
