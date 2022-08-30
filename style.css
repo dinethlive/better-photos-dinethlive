@@ -151,6 +151,11 @@ a {
   grid-column: 1/2;
   grid-row: 2/4;
 }
+@media (max-width: 580px) {
+  .sidebar {
+    grid-column: 1/-1;
+  }
+}
 
 .intro {
   padding: 48px 35px 45px;
