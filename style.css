@@ -378,10 +378,20 @@ a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 815px) {
+  .steps {
+    display: none;
+  }
+}
 
 .step {
   text-align: center;
   padding: 0 20px;
+}
+@media (max-width: 960px) {
+  .step:nth-child(3) {
+    display: none;
+  }
 }
 .step__icon {
   font-size: 20px;
