@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "sass --watch --no-source-map main.scss style.css"
+    "compile": "sass --watch --no-source-map main.scss style.css",
+    "build:compile": "sass --no-source-map src/main.scss build/compiled.css",
+    "build:prefixes": "postcss build/compiled.css --use autoprefixer --output build/prefixed.css",
+    "build:optimize": "csso build/prefixed.css --output build/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,10 @@
   },
   "homepage": "https://github.com/dinethlive/better-photos-dinethlive#readme",
   "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "csso-cli": "^4.0.1",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
     "sass": "^1.54.5"
   }
 }
